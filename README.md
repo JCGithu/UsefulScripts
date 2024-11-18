@@ -18,6 +18,11 @@ This script will create a new project folder from a set template.
 
 An easy front end for yt-dlp. Requires yt-dlp to be installed.
 
+#### Shutdown Timer
+
+Delay the shutdown of your computer. I typically use it when waiting for long downloads/uploads. Will require changing some settings in terminal first which is all described in the file.
+
+
 ## After Effects
 
 #### Project Compactor

@@ -40,5 +40,5 @@ total_minutes=$((minutes + hours_in_minutes))
 
 # Provide feedback
 echo "Shutdown in $total_minutes minutes"
-osascript -e "display notification \"⏱️ Mac will shutdown in $total_minutes minutes\" with title \"Shut Down: $total_minutes\ mins" sound name \"Funky\""
+osascript -e "display notification \"⏱️ Mac will shutdown in $total_minutes minutes\" with title \"Shut Down: $total_minutes\ mins\" sound name \"Funky\""
 sudo shutdown -h +$total_minutes

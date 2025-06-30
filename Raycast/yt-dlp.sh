@@ -14,4 +14,6 @@
 # @raycast.description Download with YT-DLP
 # @raycast.author Jack
 
-(cd /Users/jgracie/Downloads/YT-DLP; yt-dlp $2 $1)
+DEST_DIR=""
+
+(cd $DEST_DIR; yt-dlp $2 $1)
